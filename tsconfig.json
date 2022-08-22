@@ -1,0 +1,35 @@
+{
+    "compilerOptions": {
+        "outDir": "build/dist",
+        "target": "ES2020",
+        "lib": ["DOM", "DOM.Iterable", "ES2020"],
+        "module": "Node16",
+        "moduleResolution": "Node16",
+        "resolveJsonModule": true,
+        "jsx": "react-jsx",
+        "sourceMap": true,
+        "allowJs": true,
+        "rootDir": "src",
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "useUnknownInCatchVariables": true,
+        "noUncheckedIndexedAccess": true,
+        "types": ["node", "react"],
+        "strictNullChecks": true,
+        "allowSyntheticDefaultImports": true,
+        "isolatedModules": true
+    },
+    "exclude": [
+        "node_modules",
+        "build",
+        "scripts",
+        "acceptance-tests",
+        "webpack",
+        "jest",
+        "src/setupTests.ts"
+    ],
+    "types": ["typePatches"]
+}
